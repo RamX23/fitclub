@@ -1,0 +1,75 @@
+.plans-heading{
+    font-size: 3rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.plans{
+    display: flex;
+    gap: 2rem;
+    margin: 0rem 1rem;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+.plan{
+    background: gray;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.join{
+    color: white;
+}
+.join img{
+    width: 0.8rem; 
+}
+.join button{
+    width: 15rem;
+    margin-top: 2rem;
+}
+
+.feature {
+    display:flex;
+    gap: 2rem;
+   justify-content: flex-start;   
+   margin: 1rem 0;
+   color: white;
+}
+.feature img{
+    width: 1.5rem;
+    fill: white;
+}
+.plans>:nth-child(2){
+    /* font-size: 9rem; */
+    transform: scale(1.1);
+    background: var(--planCard);
+}
+
+.plan:nth-child(2)>:nth-child(1){
+   fill: white;
+}
+.plan img{
+    fill: white;
+}
+
+.plan>:nth-child(1){
+   font-weight: bold;
+   font-size: 4rem;
+   fill: orange;
+   transform: scale(1.7);
+}
+.plan>:nth-child(2){
+   font-size: 1rem;
+   font-weight: bold;
+   color: white;
+}
+.plan>:nth-child(3){
+
+   font-size: 3rem;
+   font-weight: bold;
+   color: white;
+   fill: orange;
+}

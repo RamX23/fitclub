@@ -1,0 +1,97 @@
+#testimonial{
+    display: flex;
+    margin: 3rem 0;
+}
+.t-left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0px 2rem
+}
+.t-left>:nth-child(1){
+    color: orange;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.t-left>:nth-child(2){
+    font-weight: bold;
+    font-size: 3rem;
+}
+.t-left>:nth-child(3){
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.t-left>:nth-child(4){
+    color: white;
+    text-transform: none;
+    font-size: 1rem;
+}
+.coach{
+    display: flex;
+}
+.coach>:nth-child(1){
+    color: orange;
+    font-size: 1rem;
+}
+.coach>:nth-child(2){
+    color:white;
+    font-size: 1rem;
+}
+.ids{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t-right{
+    flex: 2;
+   position: relative;
+   display: flex;
+}
+.t-right img{
+    object-fit: cover;
+    position: absolute;
+    right: 10rem;
+    top: 2rem;
+    height: 16rem;
+    width: 13rem;
+    z-index: 1;
+}
+.hollow{
+    height: 16rem;
+    width: 13rem;
+    position: absolute;
+    right: 11rem;
+    top: 1rem;
+    z-index: -1;
+    border: 3px solid orange;
+}
+.filled{
+    z-index: 0;
+    height: 16rem;
+    width: 13rem;
+    position: absolute;
+    background: var(--planCard);
+    right: 9rem;
+    top: 3rem;
+}
+.arrows {
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 12rem;
+}
+.arrows img{
+    width: 1.5rem;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    z-index: 99;
+}
+
+
